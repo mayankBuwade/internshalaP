@@ -1,18 +1,37 @@
-For SQL project
-1. change the directory to authenticationProject
-2. create a .env file and add the following fields
+# SQL Project Instructions
+
+1. **Change the directory to `authenticationProject`.**
+
+2. **Create a `.env` file and add the following fields:**
+    ```
     DB_HOST="hostname"
     DB_USER="username"
     DB_PASSWORD="password"
     DB_DATABASE="databaseName"
-3. open command prompt and run "npm install"
-4. run nodemon to start the server or node index
+    ```
 
+3. **Open the command prompt and run the command:**
+    ```
+    npm install
+    ```
 
-For authentication project
-1. change the directory to authenticationProject
-2. create a .env file and add the following fields
+4. **Run `nodemon` to start the server or `node index`.**
+
+---
+
+# Authentication Project Instructions
+
+1. **Change the directory to `authenticationProject`.**
+
+2. **Create a `.env` file and add the following fields:**
+    ```
     MONGO_URI=yourMongoDBURL
     SECRET="anyString"
-3. open command prompt and run "npm install"
-4. run nodemon to start the server or node index
+    ```
+
+3. **Open the command prompt and run the command:**
+    ```
+    npm install
+    ```
+
+4. **Run `nodemon` to start the server or `node index`.**
